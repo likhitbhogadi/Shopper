@@ -1,7 +1,5 @@
-# Dependencies
-node_modules/
-package-lock.json
+# Ignore all node_modules anywhere
+**/node_modules
 
-# Environment files
-.env
-.env.*
+# Ignore all .env files anywhere
+**/.env
